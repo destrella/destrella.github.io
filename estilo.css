@@ -26,29 +26,29 @@ section .texto{color:#f2f2f2;background:rgba(0,0,0,.90);max-width:1000px;padding
   section#desarrolloweb{background-image:url(img/img-desarrolloweb-4032x3024-q69.jpg);}
   section#diseñoeditorial{background-image:url(img/img-editorial-3840x2400-q30.jpg);}
   section#vectorizacion{background-image:url(img/img-vectorizacion-4032x3024-q20.jpg);}
-  section#fotoyvideo{background-image:url(img/img-fotoyvideo-3840x2400-q45.jpg);}
+  section#fotoyvideo{background-image:url(img/img-fotoyvideo-3840x2400-q30.jpg);}
 }
 @media (min-width:1601px) and (max-width:2560px)
 {
   section#desarrolloweb
   {
-    background-image:url(img/img-desarrolloweb-2560x1920-q66.jpg);
-    background-image:-webkit-image-set(url(img/img-desarrolloweb-2560x1920-q66.jpg) 1x, url(img/img-desarrolloweb-4032x3024-q69.jpg) 2x);
+    background-image:url(img/img-desarrolloweb-2560x1920-q69.jpg);
+    background-image:-webkit-image-set(url(img/img-desarrolloweb-2560x1920-q69.jpg) 1x, url(img/img-desarrolloweb-4032x3024-q69.jpg) 2x);
   }
   section#diseñoeditorial
   {
-    background-image:url(img/img-editorial-2560x1600-q66.jpg);
-    background-image:-webkit-image-set(url(img/img-editorial-2560x1600-q66.jpg) 1x, url(img/img-editorial-3840x2400-q30.jpg) 2x);
+    background-image:url(img/img-editorial-2560x1600-q69.jpg);
+    background-image:-webkit-image-set(url(img/img-editorial-2560x1600-q69.jpg) 1x, url(img/img-editorial-3840x2400-q30.jpg) 2x);
   }
   section#vectorizacion
   {
-    background-image:url(img/img-vectorizacion-2560x1920-q33.jpg);
-    background-image:-webkit-image-set(url(img/img-vectorizacion-2560x1920-q33.jpg) 1x, url(img/img-vectorizacion-4032x3024-q20.jpg) 2x);
+    background-image:url(img/img-vectorizacion-2560x1920-q20.jpg);
+    background-image:-webkit-image-set(url(img/img-vectorizacion-2560x1920-q20.jpg) 1x, url(img/img-vectorizacion-4032x3024-q20.jpg) 2x);
   }
   section#fotoyvideo
   {
-    background-image:url(img/img-fotoyvideo-2560x1600-q33.jpg);
-    background-image:-webkit-image-set(url(img/img-fotoyvideo-2560x1600-q33.jpg) 1x, url(img/img-fotoyvideo-3840x2400-q45.jpg) 2x);
+    background-image:url(img/img-fotoyvideo-2560x1600-q69.jpg);
+    background-image:-webkit-image-set(url(img/img-fotoyvideo-2560x1600-q69.jpg) 1x, url(img/img-fotoyvideo-3840x2400-q30.jpg) 2x);
   }
 }
 @media (min-width:1281px) and (max-width:1600px)
@@ -56,22 +56,22 @@ section .texto{color:#f2f2f2;background:rgba(0,0,0,.90);max-width:1000px;padding
   section#desarrolloweb
   {
     background-image:url(img/img-desarrolloweb-1600x1200-q85.jpg);
-    background-image:-webkit-image-set(url(img/img-desarrolloweb-1600x1200-q85.jpg) 1x, url(img/img-desarrolloweb-3200x2400-q66.jpg) 2x);
+    background-image:-webkit-image-set(url(img/img-desarrolloweb-1600x1200-q85.jpg) 1x, url(img/img-desarrolloweb-3200x2400-q69.jpg) 2x);
   }
   section#diseñoeditorial
   {
-    background-image:url(img/img-editorial-1600x1000-q66.jpg);
-    background-image:-webkit-image-set(url(img/img-editorial-1600x1000-q66.jpg) 1x, url(img/img-editorial-3200x2000-q33.jpg) 2x);
+    background-image:url(img/img-editorial-1600x1000-q69.jpg);
+    background-image:-webkit-image-set(url(img/img-editorial-1600x1000-q69.jpg) 1x, url(img/img-editorial-3200x2000-q30.jpg) 2x);
   }
   section#vectorizacion
   {
-    background-image:url(img/img-vectorizacion-1600x1200-q66.jpg);
-    background-image:-webkit-image-set(url(img/img-vectorizacion-1600x1200-q66.jpg) 1x, url(img/img-vectorizacion-3200x2400-q20.jpg) 2x);
+    background-image:url(img/img-vectorizacion-1600x1200-q69.jpg);
+    background-image:-webkit-image-set(url(img/img-vectorizacion-1600x1200-q69.jpg) 1x, url(img/img-vectorizacion-3200x2400-q20.jpg) 2x);
   }
   section#fotoyvideo
   {
-    background-image:url(img/img-fotoyvideo-1600x1000-q66.jpg);
-    background-image:-webkit-image-set(url(img/img-fotoyvideo-1600x1000-q66.jpg) 1x, url(img/img-fotoyvideo-3200x2000-q45.jpg) 2x);
+    background-image:url(img/img-fotoyvideo-1600x1000-q69.jpg);
+    background-image:-webkit-image-set(url(img/img-fotoyvideo-1600x1000-q69.jpg) 1x, url(img/img-fotoyvideo-3200x2000-q30.jpg) 2x);
   }
 }
 @media (min-width:801px) and (max-width:1280px)
@@ -79,22 +79,22 @@ section .texto{color:#f2f2f2;background:rgba(0,0,0,.90);max-width:1000px;padding
   section#desarrolloweb
   {
     background-image:url(img/img-desarrolloweb-1280x960-q85.jpg);
-    background-image:-webkit-image-set(url(img/img-desarrolloweb-1280x960-q85.jpg) 1x, url(img/img-desarrolloweb-2560x1920-q66.jpg) 2x);
+    background-image:-webkit-image-set(url(img/img-desarrolloweb-1280x960-q85.jpg) 1x, url(img/img-desarrolloweb-2560x1920-q69.jpg) 2x);
   }
   section#diseñoeditorial
   {
     background-image:url(img/img-editorial-1280x800-q85.jpg);
-    background-image:-webkit-image-set(url(img/img-editorial-1280x800-q85.jpg) 1x, url(img/img-editorial-2560x1600-q66.jpg) 2x);
+    background-image:-webkit-image-set(url(img/img-editorial-1280x800-q85.jpg) 1x, url(img/img-editorial-2560x1600-q69.jpg) 2x);
   }
   section#vectorizacion
   {
     background-image:url(img/img-vectorizacion-1280x960-q85.jpg);
-    background-image:-webkit-image-set(url(img/img-vectorizacion-1280x960-q85.jpg) 1x, url(img/img-vectorizacion-2560x1920-q33.jpg) 2x);
+    background-image:-webkit-image-set(url(img/img-vectorizacion-1280x960-q85.jpg) 1x, url(img/img-vectorizacion-2560x1920-q20.jpg) 2x);
   }
   section#fotoyvideo
   {
     background-image:url(img/img-fotoyvideo-1280x800-q85.jpg);
-    background-image:-webkit-image-set(url(img/img-fotoyvideo-1280x800-q85.jpg) 1x, url(img/img-fotoyvideo-2560x1600-q33.jpg) 2x);
+    background-image:-webkit-image-set(url(img/img-fotoyvideo-1280x800-q85.jpg) 1x, url(img/img-fotoyvideo-2560x1600-q69.jpg) 2x);
   }
 }
 @media (min-width:641px) and (max-width:800px)
@@ -107,17 +107,17 @@ section .texto{color:#f2f2f2;background:rgba(0,0,0,.90);max-width:1000px;padding
   section#diseñoeditorial
   {
     background-image:url(img/img-editorial-800x500-q85.jpg);
-    background-image:-webkit-image-set(url(img/img-editorial-800x500-q85.jpg) 1x, url(img/img-editorial-1600x1000-q66.jpg) 2x);
+    background-image:-webkit-image-set(url(img/img-editorial-800x500-q85.jpg) 1x, url(img/img-editorial-1600x1000-q69.jpg) 2x);
   }
   section#vectorizacion
   {
     background-image:url(img/img-vectorizacion-800x600-q85.jpg);
-    background-image:-webkit-image-set(url(img/img-vectorizacion-800x600-q85.jpg) 1x, url(img/img-vectorizacion-1600x1200-q66.jpg) 2x);
+    background-image:-webkit-image-set(url(img/img-vectorizacion-800x600-q85.jpg) 1x, url(img/img-vectorizacion-1600x1200-q69.jpg) 2x);
   }
   section#fotoyvideo
   {
     background-image:url(img/img-fotoyvideo-800x500-q85.jpg);
-    background-image:-webkit-image-set(url(img/img-fotoyvideo-800x500-q85.jpg) 1x, url(img/img-fotoyvideo-1600x1000-q66.jpg) 2x);
+    background-image:-webkit-image-set(url(img/img-fotoyvideo-800x500-q85.jpg) 1x, url(img/img-fotoyvideo-1600x1000-q69.jpg) 2x);
   }
 }
 @media (max-width:640px)
