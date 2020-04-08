@@ -15,9 +15,6 @@ body{
 	line-height:1.52947;
 	font-weight:300;
 }
-body > p{
-	color:#ccc;
-}
 header#encabezado{
 	color:#fff;
 	top:0;
@@ -32,6 +29,9 @@ header#encabezado{
 	padding-left:4em;
 	border-bottom:1px solid #000;
 	box-shadow: 0 0 16px #000;
+}
+section{
+	padding:2em 0;
 }
 h1{
 	font-weight:100;
@@ -61,7 +61,10 @@ h1{
 	align-content:center;
 	align-items: center;
 }
-section{
+.oculto{
+	display:none;
+}
+.grid{
 	margin:1em;
 	padding:1em;
 	width:30em;
@@ -103,7 +106,7 @@ blockquote+p{
 	text-align:right;
 	margin:1em 0 0 auto;
 }
-section .texto{
+.grid .texto{
 	color:#f2f2f2;
 	background:rgba(0,0,0,.7);
 	width:100%;
@@ -116,7 +119,7 @@ section .texto{
 	backdrop-filter: blur(15px);
 }
 
-#Proyectos section{
+#Proyectos .grid{
 	width:calc(30em + 300px);
 	max-width:100%;
 	min-height: max-content;
@@ -141,18 +144,32 @@ section .texto{
 	margin-top:0;
 }
 
-#testimonios section{
+#Testimonios .grid{
 	background-color:rgba(255,255,255,.69);
 	height:max-content;
 	min-height: max-content;
 }
-#testimonios img{
+#Testimonios img{
 	border-radius:50%;
 	width:150px;
 	height:auto;
 	max-width:50%;
 	box-shadow:0 0 16px rgba(255,255,255,.9);
 }
+#Testimonios h3{
+	color:#000;
+	text-shadow:none;
+	text-align:right;
+	margin-right:0;
+}
+#Testimonios h3::before{
+	content:'—';
+}
+#Testimonios h3 span{
+	font-weight:100;
+	font-size:.8em;
+}
+
 .LI-profile-badge{
 	width:330px;
 	margin:1em auto;
@@ -188,10 +205,10 @@ body div.LI-profile-badge div div.LI-badge-container-horizontal-dark.LI-badge-co
 	background-color:#303030!important;
 }
 
-#Herramientas{
+#Herramientas.flex{
 	align-items: end;
 }
-#Herramientas section{
+#Herramientas .grid{
 	background-color:rgba(255,255,255,.69);
 	width:500px;
 	max-width:100%;
@@ -200,16 +217,19 @@ body div.LI-profile-badge div div.LI-badge-container-horizontal-dark.LI-badge-co
 	align-content: end;
 	margin-top:0;
 }
-#Herramientas section:first-child{
+#Herramientas .grid:first-child{
 	background: url(img/herramientas.png) 50% 102% no-repeat;
 	background-size:contain;
 }
-#Herramientas section:last-child{
+#Herramientas .grid:last-child{
 	background: url(img/herramientas-servidor.png) 50% 100% no-repeat;
 	background-size:contain;
 }
-#Herramientas ul{
+#Acerca-de p,
+#Acerca-de ul{
 	color:#ccc;
+}
+#Acerca-de ul{
 	background-color:rgba(0,0,0,.69);
 	border-radius:6px;
 	padding:1em;
@@ -229,29 +249,29 @@ footer{
 
 @media (min-width:2561px)
 {
-  section#desarrolloweb{background-image:url(img/img-desarrolloweb-4032x3024-q69.jpg);}
-  section#diseñoeditorial{background-image:url(img/img-editorial-3840x2400-q30.jpg);}
-  section#vectorizacion{background-image:url(img/img-vectorizacion-4032x3024-q20.jpg);}
-  section#fotoyvideo{background-image:url(img/img-fotoyvideo-3840x2400-q30.jpg);}
+  .grid#desarrolloweb{background-image:url(img/img-desarrolloweb-4032x3024-q69.jpg);}
+  .grid#diseñoeditorial{background-image:url(img/img-editorial-3840x2400-q30.jpg);}
+  .grid#vectorizacion{background-image:url(img/img-vectorizacion-4032x3024-q20.jpg);}
+  .grid#fotoyvideo{background-image:url(img/img-fotoyvideo-3840x2400-q30.jpg);}
 }
 @media (min-width:1601px) and (max-width:2560px)
 {
-  section#desarrolloweb
+  .grid#desarrolloweb
   {
     background-image:url(img/img-desarrolloweb-2560x1920-q69.jpg);
     background-image:-webkit-image-set(url(img/img-desarrolloweb-2560x1920-q69.jpg) 1x, url(img/img-desarrolloweb-4032x3024-q69.jpg) 2x);
   }
-  section#diseñoeditorial
+  .grid#diseñoeditorial
   {
     background-image:url(img/img-editorial-2560x1600-q69.jpg);
     background-image:-webkit-image-set(url(img/img-editorial-2560x1600-q69.jpg) 1x, url(img/img-editorial-3840x2400-q30.jpg) 2x);
   }
-  section#vectorizacion
+  .grid#vectorizacion
   {
     background-image:url(img/img-vectorizacion-2560x1920-q20.jpg);
     background-image:-webkit-image-set(url(img/img-vectorizacion-2560x1920-q20.jpg) 1x, url(img/img-vectorizacion-4032x3024-q20.jpg) 2x);
   }
-  section#fotoyvideo
+  .grid#fotoyvideo
   {
     background-image:url(img/img-fotoyvideo-2560x1600-q69.jpg);
     background-image:-webkit-image-set(url(img/img-fotoyvideo-2560x1600-q69.jpg) 1x, url(img/img-fotoyvideo-3840x2400-q30.jpg) 2x);
@@ -259,22 +279,22 @@ footer{
 }
 @media (min-width:1281px) and (max-width:1600px)
 {
-  section#desarrolloweb
+  .grid#desarrolloweb
   {
     background-image:url(img/img-desarrolloweb-1600x1200-q85.jpg);
     background-image:-webkit-image-set(url(img/img-desarrolloweb-1600x1200-q85.jpg) 1x, url(img/img-desarrolloweb-3200x2400-q69.jpg) 2x);
   }
-  section#diseñoeditorial
+  .grid#diseñoeditorial
   {
     background-image:url(img/img-editorial-1600x1000-q69.jpg);
     background-image:-webkit-image-set(url(img/img-editorial-1600x1000-q69.jpg) 1x, url(img/img-editorial-3200x2000-q30.jpg) 2x);
   }
-  section#vectorizacion
+  .grid#vectorizacion
   {
     background-image:url(img/img-vectorizacion-1600x1200-q69.jpg);
     background-image:-webkit-image-set(url(img/img-vectorizacion-1600x1200-q69.jpg) 1x, url(img/img-vectorizacion-3200x2400-q20.jpg) 2x);
   }
-  section#fotoyvideo
+  .grid#fotoyvideo
   {
     background-image:url(img/img-fotoyvideo-1600x1000-q69.jpg);
     background-image:-webkit-image-set(url(img/img-fotoyvideo-1600x1000-q69.jpg) 1x, url(img/img-fotoyvideo-3200x2000-q30.jpg) 2x);
@@ -282,22 +302,22 @@ footer{
 }
 @media (min-width:801px) and (max-width:1280px)
 {
-  section#desarrolloweb
+  .grid#desarrolloweb
   {
     background-image:url(img/img-desarrolloweb-1280x960-q85.jpg);
     background-image:-webkit-image-set(url(img/img-desarrolloweb-1280x960-q85.jpg) 1x, url(img/img-desarrolloweb-2560x1920-q69.jpg) 2x);
   }
-  section#diseñoeditorial
+  .grid#diseñoeditorial
   {
     background-image:url(img/img-editorial-1280x800-q85.jpg);
     background-image:-webkit-image-set(url(img/img-editorial-1280x800-q85.jpg) 1x, url(img/img-editorial-2560x1600-q69.jpg) 2x);
   }
-  section#vectorizacion
+  .grid#vectorizacion
   {
     background-image:url(img/img-vectorizacion-1280x960-q85.jpg);
     background-image:-webkit-image-set(url(img/img-vectorizacion-1280x960-q85.jpg) 1x, url(img/img-vectorizacion-2560x1920-q20.jpg) 2x);
   }
-  section#fotoyvideo
+  .grid#fotoyvideo
   {
     background-image:url(img/img-fotoyvideo-1280x800-q85.jpg);
     background-image:-webkit-image-set(url(img/img-fotoyvideo-1280x800-q85.jpg) 1x, url(img/img-fotoyvideo-2560x1600-q69.jpg) 2x);
@@ -305,22 +325,22 @@ footer{
 }
 @media (min-width:641px) and (max-width:800px)
 {
-  section#desarrolloweb
+  .grid#desarrolloweb
   {
     background-image:url(img/img-desarrolloweb-800x600-q85.jpg);
     background-image:-webkit-image-set(url(img/img-desarrolloweb-800x600-q85.jpg) 1x, url(img/img-desarrolloweb-1600x1200-q85.jpg) 2x);
   }
-  section#diseñoeditorial
+  .grid#diseñoeditorial
   {
     background-image:url(img/img-editorial-800x500-q85.jpg);
     background-image:-webkit-image-set(url(img/img-editorial-800x500-q85.jpg) 1x, url(img/img-editorial-1600x1000-q69.jpg) 2x);
   }
-  section#vectorizacion
+  .grid#vectorizacion
   {
     background-image:url(img/img-vectorizacion-800x600-q85.jpg);
     background-image:-webkit-image-set(url(img/img-vectorizacion-800x600-q85.jpg) 1x, url(img/img-vectorizacion-1600x1200-q69.jpg) 2x);
   }
-  section#fotoyvideo
+  .grid#fotoyvideo
   {
     background-image:url(img/img-fotoyvideo-800x500-q85.jpg);
     background-image:-webkit-image-set(url(img/img-fotoyvideo-800x500-q85.jpg) 1x, url(img/img-fotoyvideo-1600x1000-q69.jpg) 2x);
@@ -328,22 +348,22 @@ footer{
 }
 @media (max-width:640px)
 {
-  section#desarrolloweb
+  .grid#desarrolloweb
   {
     background-image:url(img/img-desarrolloweb-640x480-q85.jpg);
     background-image:-webkit-image-set(url(img/img-desarrolloweb-640x480-q85.jpg) 1x, url(img/img-desarrolloweb-1280x960-q85.jpg) 2x);
   }
-  section#diseñoeditorial
+  .grid#diseñoeditorial
   {
     background-image:url(img/img-editorial-640x400-q85.jpg);
     background-image:-webkit-image-set(url(img/img-editorial-640x400-q85.jpg) 1x, url(img/img-editorial-1280x800-q85.jpg) 2x);
   }
-  section#vectorizacion
+  .grid#vectorizacion
   {
     background-image:url(img/img-vectorizacion-640x480-q85.jpg);
     background-image:-webkit-image-set(url(img/img-vectorizacion-640x480-q85.jpg) 1x, url(img/img-vectorizacion-1280x960-q85.jpg) 2x);
   }
-  section#fotoyvideo
+  .grid#fotoyvideo
   {
     background-image:url(img/img-fotoyvideo-640x400-q85.jpg);
     background-image:-webkit-image-set(url(img/img-fotoyvideo-640x400-q85.jpg) 1x, url(img/img-fotoyvideo-1280x800-q85.jpg) 2x);
