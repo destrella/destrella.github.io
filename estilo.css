@@ -53,7 +53,8 @@ h1{
 	text-shadow:0 0 16px #fff;
 }
 main,
-#testimonios{
+#testimonios,
+#Proyectos{
 	display:flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -96,8 +97,6 @@ blockquote+p{
 	text-align:right;
 	margin:1em 0 0 auto;
 }
-
-
 section .texto{
 	color:#f2f2f2;
 	background:rgba(0,0,0,.7);
@@ -110,6 +109,30 @@ section .texto{
 	-webkit-backdrop-filter: blur(15px);
 	backdrop-filter: blur(15px);
 }
+
+#Proyectos section{
+	width:calc(30em + 300px);
+	max-width:100%;
+	min-height: max-content;
+	grid-template-areas:
+		"img tit"
+		"img txt";
+	grid-template-rows: 4em auto;
+	gap:0 1em;
+	color:#ccc;
+	align-items: start;
+}
+#Proyectos img{
+	width:300px;
+	max-width:100%;
+	height:auto;
+	grid-area: img;
+}
+#Proyectos ul,
+#proyectos p:first-child{
+	margin-top:0;
+}
+
 #testimonios section{
 	background-color:rgba(255,255,255,.69);
 	height:max-content;
