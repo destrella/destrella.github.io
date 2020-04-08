@@ -121,6 +121,8 @@ section .texto{
 	gap:0 1em;
 	color:#ccc;
 	align-items: start;
+	justify-content: left;
+	justify-items: left;
 }
 #Proyectos img{
 	width:300px;
