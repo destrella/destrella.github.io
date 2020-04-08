@@ -52,9 +52,7 @@ h1{
 #lnkcontacto a:hover,#lnkcontacto a:focus{
 	text-shadow:0 0 16px #fff;
 }
-main,
-#testimonios,
-#Proyectos{
+.flex{
 	display:flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -86,6 +84,12 @@ h2{
 	margin-bottom:0;
 	text-align:center;
 	border-bottom:1px solid #000;
+}
+h3{
+	color:#FFB742;
+	text-shadow:0px 2px 2px rgba(0,0,0,.69);
+	margin-bottom:0;
+	text-align:center;
 }
 a{
 	cursor:pointer;
@@ -180,6 +184,37 @@ body div.LI-profile-badge div{
 }
 body div.LI-profile-badge div div.LI-badge-container-horizontal-dark.LI-badge-container.horizontal.dark.large{
 	background-color:#303030!important;
+}
+
+#Herramientas{
+	align-items: end;
+}
+#Herramientas section{
+	background-color:rgba(255,255,255,.69);
+	width:500px;
+	max-width:100%;
+	min-height: max-content;
+	box-shadow:none;
+	align-content: end;
+	margin-top:0;
+}
+#Herramientas section:first-child{
+	background: url(img/herramientas.png) 50% 102% no-repeat;
+	background-size:contain;
+}
+#Herramientas section:last-child{
+	background: url(img/herramientas-servidor.png) 50% 100% no-repeat;
+	background-size:contain;
+}
+#Herramientas ul{
+	color:#ccc;
+	background-color:rgba(0,0,0,.69);
+	border-radius:6px;
+	padding:1em;
+	padding-left:2em;
+	margin:0 0 11em;
+	-webkit-backdrop-filter: blur(15px);
+	backdrop-filter: blur(15px);
 }
 
 @media (min-width:2561px)
