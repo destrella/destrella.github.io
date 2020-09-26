@@ -19,7 +19,9 @@
 	<meta name="msapplication-TileImage" content="https://destrella.mx/apple-touch-icon.png">
 	<title>DEstrella.mx: Desarrollo web</title>
     <meta name="generator" content="DEstrella.mx">
-    <link media="screen" type="text/css" href="estilo.min.css?v202009260722" rel="stylesheet">
+	<link media="screen" type="text/css" href="estilo.min.css?v=202009261125" rel="stylesheet">
+	<link rel="stylesheet" href="slider.min.css?v=202009261125">
+	<!--[if IE]><style>.slider-servicios>.cs_arrownext>label:after,.slider-servicios>.cs_arrowprev>label:after{line-height:30px}.slider-servicios>.cs_play_pause>label:after{line-height:28px}</style><![endif]-->
 	<meta name="yandex-verification" content="155690d84330050d">
 </head>
 <body id="Inicio">
@@ -40,39 +42,79 @@
 	<main id="Contenido">
 		<section id="Servicios">
 			<h2 class="oculto">Servicios ofrecidos</h2>
-    		<div class="flex">
-      			<article class="grid" id="desarrolloweb">
-        			<div class="texto">
-						<h3>Desarrollo Web</h3>
-        				<p>Maquetación de PSD a HTML/CSS<br/>
-            		Plantillas para WordPress y Joomla!<br/>
-            		Programación en PHP con MySQL<br/>
-            		Configuración, actualización y mantenimiento de servidores Apache y NGiNX</p>
-		        	</div>
-    			</article>
-    			<article class="grid" id="diseñoeditorial">
-        			<div class="texto">
-        				<h3>Diseño editorial</h3>
-        				<p>Diseño de catálogos<br/>
-            		Panfletos y volantes<br/>
-            		Tarjetas de presentación</p>
-        			</div>
-    			</article>
-      			<article class="grid" id="vectorizacion">
-        			<div class="texto">
-          				<h3>Vectorización de imagenes</h3>
-          				<p>Creación y vectorización de logos en formato .ai, .eps y .svg a partir de imágenes de mapa de bits como .jpg, .png, .gif o .bmp<br/>
-            		Vectorización de imágenes a partir de fotografías o ilustraciones a mano escaneadas.</p>
-        			</div>
-				</article>
-      			<article class="grid" id="fotoyvideo">
-        			<div class="texto">
-          				<h3>Edición de fotografía y video</h3>
-          				<p>Edición de imagenes, corrección y/o reemplazo de color, eliminación de fondo, corrección de lente.<br/>
-            		Edición de video, corrección de color, balance de blancos.</p>
-        			</div>
-				</article>
+
+		<div class="slider-servicios autoplay">
+		<input name="cs_anchor1" id="cs_slide1_0" type="radio" class="cs_anchor slide">
+		<input name="cs_anchor1" id="cs_slide1_1" type="radio" class="cs_anchor slide">
+		<input name="cs_anchor1" id="cs_slide1_2" type="radio" class="cs_anchor slide">
+		<input name="cs_anchor1" id="cs_slide1_3" type="radio" class="cs_anchor slide">
+		<input name="cs_anchor1" id="cs_play1" type="radio" class="cs_anchor" checked="">
+		<input name="cs_anchor1" id="cs_pause1_0" type="radio" class="cs_anchor pause">
+		<input name="cs_anchor1" id="cs_pause1_1" type="radio" class="cs_anchor pause">
+		<input name="cs_anchor1" id="cs_pause1_2" type="radio" class="cs_anchor pause">
+		<input name="cs_anchor1" id="cs_pause1_3" type="radio" class="cs_anchor pause">
+		<ul>
+			<li class="cs_skeleton"><img src="img/desarrollo-web.jpg" style="width: 100%;"></li>
+			<li class="num0 img slide"> <img src="img/desarrollo-web.jpg" alt="Desarrollo Web" title="Desarrollo Web"></li>
+			<li class="num1 img slide"> <img src="img/diseno-editorial.jpg" alt="Diseño Editorial" title="Diseño Editorial"></li>
+			<li class="num2 img slide"> <img src="img/edicion-de-video.jpg" alt="Edición de Video" title="Edición de Video"></li>
+			<li class="num3 img slide"> <img src="img/vectorizacion.jpg" alt="Vectorización de Imagenes" title="Vectorización de Imagenes"></li>
+		</ul>
+		<div class="cs_description">
+			<label class="num0">
+				<span class="cs_title"><span class="cs_wrapper">Desarrollo Web</span></span>
+				<span class="cs_descr"><span class="cs_wrapper">Maquetación de PSD a HTML/CSS<br>
+					Plantillas para WordPress y Joomla!<br>
+					Programación en PHP con MySQL<br>
+					Configuración, actualización y mantenimiento de servidores Apache y NGiNX</span></span>
+			</label>
+			<label class="num1">
+				<span class="cs_title"><span class="cs_wrapper">Diseño Editorial</span></span>
+				<span class="cs_descr"><span class="cs_wrapper">Diseño de catálogos<br>
+					Panfletos y volantes<br>
+					Tarjetas de presentación</span></span>
+			</label>
+			<label class="num2">
+				<span class="cs_title"><span class="cs_wrapper">Edición Multimedia</span></span>
+				<span class="cs_descr"><span class="cs_wrapper">Edición de imagenes, corrección y/o reemplazo de color, eliminación de fondo, corrección de lente.<br/>
+					Edición de video, corrección de color, balance de blancos.</span></span>
+			</label>
+			<label class="num3">
+				<span class="cs_title"><span class="cs_wrapper">Vectorización de Imagenes</span></span>
+				<span class="cs_descr"><span class="cs_wrapper">Creación y vectorización de logos en formato .ai, .eps y .svg a partir de imágenes de mapa de bits como .jpg, .png, .gif o .bmp<br>
+					Vectorización de imágenes a partir de fotografías o ilustraciones a mano escaneadas.</span></span>
+			</label>
+		</div>
+		<div class="cs_play_pause">
+			<label class="cs_play" for="cs_play1"><span><i></i><b></b></span></label>
+			<label class="cs_pause num0" for="cs_pause1_0"><span><i></i><b></b></span></label>
+			<label class="cs_pause num1" for="cs_pause1_1"><span><i></i><b></b></span></label>
+			<label class="cs_pause num2" for="cs_pause1_2"><span><i></i><b></b></span></label>
+			<label class="cs_pause num3" for="cs_pause1_3"><span><i></i><b></b></span></label>
 			</div>
+		<div class="cs_arrowprev">
+			<label class="num0" for="cs_slide1_0"><span><i></i><b></b></span></label>
+			<label class="num1" for="cs_slide1_1"><span><i></i><b></b></span></label>
+			<label class="num2" for="cs_slide1_2"><span><i></i><b></b></span></label>
+			<label class="num3" for="cs_slide1_3"><span><i></i><b></b></span></label>
+		</div>
+		<div class="cs_arrownext">
+			<label class="num0" for="cs_slide1_0"><span><i></i><b></b></span></label>
+			<label class="num1" for="cs_slide1_1"><span><i></i><b></b></span></label>
+			<label class="num2" for="cs_slide1_2"><span><i></i><b></b></span></label>
+			<label class="num3" for="cs_slide1_3"><span><i></i><b></b></span></label>
+		</div>
+		<div class="cs_bullets">
+			<label class="num0" for="cs_slide1_0"> <span class="cs_point"></span>
+				</label>
+			<label class="num1" for="cs_slide1_1"> <span class="cs_point"></span>
+				</label>
+			<label class="num2" for="cs_slide1_2"> <span class="cs_point"></span>
+				</label>
+			<label class="num3" for="cs_slide1_3"> <span class="cs_point"></span>
+				</label>
+		</div>
+		</div>
 		</section>
 		<section id="Proyectos">
 			<h2>Últimos Proyectos Terminados</h2>
@@ -219,6 +261,7 @@
 		“Serif” y “Affinity” son marcas comerciales registradas de Serif Europe Ltd.<br/>
 		iWork y MacBook Pro son marcas comerciales de Apple Inc. registradas en Estados Unidos y en otros países.
 	</footer>
+	<script type="text/javascript" src="js/gestures.js"></script>
 	<!-- Start of HubSpot Embed Code -->
 	<script id="hs-script-loader" async defer src="//js.hs-scripts.com/7238885.js"></script>
 	<!-- End of HubSpot Embed Code -->
