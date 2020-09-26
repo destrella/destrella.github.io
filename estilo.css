@@ -9,6 +9,12 @@
 ::-moz-selection {
 	background: #1959c8;
 }
+:target:before {
+    content: "";
+    display: block;
+    height: 1.25rem;
+    margin: 1.25rem 0 0;
+}
 html{
 	background:#303030;
 	color:#333;
@@ -18,7 +24,7 @@ html{
 }
 body{
 	margin:0;
-	padding:3.5em 0 0;
+	padding:0;
 	font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	font-size: calc(14px + (26 - 14) * ((100vw - 300px)/ (3200 - 300)));
 	line-height:1.52947;
@@ -119,13 +125,9 @@ header#Encabezado{
 	backdrop-filter:blur(15px);
 	background:rgba(34, 34, 34, 0.7) url(img/destrella-logo.svg) 1em 50% no-repeat;
 	background-size:contain;
-	padding-left:4em;
+	padding:.5em 0 .5em 4.2em;
 	border-bottom:1px solid #000;
 	box-shadow: 0 0 16px #000;
-	display:grid;
-	grid-template-columns: max-content 1fr;
-	gap:1em;
-	align-items: center;
 }
 nav a,
 nav a:visited{
@@ -136,7 +138,10 @@ nav a:visited{
 }
 nav a:hover,
 #lnkcontacto a:focus{
-	text-shadow:0 0 16px #fff;
+	text-shadow:0 0 16px #fff,0 0 16px #fff,0 0 16px #fff;
+}
+#Encabezado nav{
+	margin:0 0 0 auto;
 }
 #Encabezado nav ul{
 	margin:0 .5em 0;
@@ -198,6 +203,32 @@ blockquote > cite::before{
 	transition:all .5s;
 	-webkit-backdrop-filter: blur(15px);
 	backdrop-filter: blur(15px);
+}
+
+#Hero{
+	width:100%;
+	padding-top:56.25%;
+	height:max-content;
+	position:relative;
+}
+#Hero img{
+	position:absolute;
+	z-index:2;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	margin:0;
+	max-width:90%;
+}
+#Hero .fnd{
+	width:100%;
+	height:100%;
+	background-size:cover;
+	background-image: url(img/código-fuente.jpg);
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
 }
 
 #Proyectos .grid{
