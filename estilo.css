@@ -477,3 +477,41 @@ body div.LI-profile-badge div div.LI-badge-container-horizontal-dark.LI-badge-co
     background-image:-webkit-image-set(url(img/img-fotoyvideo-640x400-q85.jpg) 1x, url(img/img-fotoyvideo-1280x800-q85.jpg) 2x);
   }
 }
+
+#Intro{
+	padding:2em 0 0;
+}
+#Intro p.intro{
+	color:#ddd;
+	text-align:center;
+}
+#Intro p.intro strong{
+	color:#FFB742;
+}
+#Experiencia .grid,
+#Herramientas-QA .grid{
+	width:calc(30em + 300px);
+	max-width:100%;
+	min-height:max-content;
+	display:block;
+	text-align:left;
+	color:#ccc;
+}
+#Experiencia .grid h3,
+#Herramientas-QA .grid h3{
+	text-align:left;
+	margin-left:0;
+	margin-right:0;
+	max-width:none;
+}
+#Experiencia .grid ul,
+#Herramientas-QA .grid p{
+	color:#ccc;
+	max-width:none;
+}
+#Herramientas-QA .grid a{
+	color:#FFB742;
+}
+#Proyectos .grid a{
+	color:#FFB742;
+}
