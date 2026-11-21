@@ -14,18 +14,19 @@
 	<meta name="description" content="QA Web y desarrollo web en Mérida. Revisión de contenido multilingüe, Strapi, AWS y herramientas propias de QA.">
 	<meta property="og:url" content="https://destrella.mx">
 	<meta property="og:locale" content="es_MX">
-	<meta name="twitter:text:title" content="DEstrella.mx">
+	<meta name="theme-color" content="#303030">
+	<meta name="twitter:title" content="DEstrella.mx">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:image" content="https://destrella.mx/apple-touch-icon.png">
 	<meta name="msapplication-TileImage" content="https://destrella.mx/apple-touch-icon.png">
 	<title>DEstrella.mx: QA Web y desarrollo web</title>
     <meta name="generator" content="DEstrella.mx">
-	<link media="screen" type="text/css" href="estilo.min.css?v=20261120" rel="stylesheet">
-	<link rel="stylesheet" href="slider.min.css?v=20261120">
+	<link media="screen" href="estilo.min.css?v=20261121" rel="stylesheet">
+	<link rel="stylesheet" href="slider.min.css?v=20261121">
 	<meta name="yandex-verification" content="155690d84330050d">
 </head>
 <body id="Inicio">
-	<a href="#Contenido" class="oculto">Saltar al contenido.</a>
+	<a href="#Contenido" class="skip-link">Saltar al contenido.</a>
 	<header id="Encabezado">
 		<nav aria-label="Menú principal">
 			<ul>
@@ -39,16 +40,17 @@
 			</ul>
 		</nav>
 	</header>
-	<div id="Hero"><h1 class="oculto">DEstrella.mx</h1><img src="img/destrellamx.svg" width="890" height="120" alt="Título del sitio"/><div class="fnd"></div></div>
+	<div id="Hero"><h1 class="oculto">DEstrella.mx</h1><img src="img/destrellamx.svg" width="890" height="120" alt="DEstrella.mx"><div class="fnd" aria-hidden="true"></div></div>
 	<main id="Contenido">
 		<section id="Intro">
+			<h2 class="oculto">QA Web y desarrollo web en Mérida</h2>
 			<p class="intro"><strong>QA Web y desarrollo web en Mérida.</strong> Reviso contenido multilingüe en producción, detecto errores antes de que los vean los usuarios y construyo herramientas que hacen ese trabajo más rápido y fiable.</p>
 			<p class="intro">Actualmente disponible para oportunidades de QA Web y para proyectos de desarrollo y diseño web.</p>
 		</section>
 		<section id="Servicios">
 			<h2 class="oculto">Servicios ofrecidos</h2>
 
-		<div class="slider-servicios autoplay">
+		<div class="slider-servicios autoplay" role="region" aria-roledescription="carrusel" aria-label="Servicios ofrecidos">
 		<input name="cs_anchor1" id="cs_slide1_0" type="radio" class="cs_anchor slide">
 		<input name="cs_anchor1" id="cs_slide1_1" type="radio" class="cs_anchor slide">
 		<input name="cs_anchor1" id="cs_slide1_2" type="radio" class="cs_anchor slide">
@@ -59,11 +61,11 @@
 		<input name="cs_anchor1" id="cs_pause1_2" type="radio" class="cs_anchor pause">
 		<input name="cs_anchor1" id="cs_pause1_3" type="radio" class="cs_anchor pause">
 		<ul>
-			<li class="cs_skeleton"><img src="img/desarrollo-web.jpg" style="width: 100%;"></li>
-			<li class="num0 img slide"> <img src="img/desarrollo-web.jpg" alt="Desarrollo Web" title="Desarrollo Web"></li>
-			<li class="num1 img slide"> <img src="img/diseno-editorial.jpg" alt="Diseño Editorial" title="Diseño Editorial"></li>
-			<li class="num2 img slide"> <img src="img/edicion-de-video.jpg" alt="Edición de Video" title="Edición de Video"></li>
-			<li class="num3 img slide"> <img src="img/vectorizacion.jpg" alt="Vectorización de Imagenes" title="Vectorización de Imagenes"></li>
+			<li class="cs_skeleton"><img src="img/desarrollo-web.jpg" alt=""></li>
+			<li class="num0 img slide"> <img src="img/desarrollo-web.jpg" alt="Desarrollo Web"></li>
+			<li class="num1 img slide"> <img src="img/diseno-editorial.jpg" alt="Diseño Editorial"></li>
+			<li class="num2 img slide"> <img src="img/edicion-de-video.jpg" alt="Edición de Video"></li>
+			<li class="num3 img slide"> <img src="img/vectorizacion.jpg" alt="Vectorización de Imagenes"></li>
 		</ul>
 		<div class="cs_description">
 			<label class="num0">
@@ -82,7 +84,7 @@
 			</label>
 			<label class="num2">
 				<span class="cs_title"><span class="cs_wrapper">Edición Multimedia</span></span>
-				<span class="cs_descr"><span class="cs_wrapper">Edición de imagenes, corrección y/o reemplazo de color, eliminación de fondo, corrección de lente.<br/>
+				<span class="cs_descr"><span class="cs_wrapper">Edición de imagenes, corrección y/o reemplazo de color, eliminación de fondo, corrección de lente.<br>
 					Edición de video, corrección de color, balance de blancos.</span></span>
 			</label>
 			<label class="num3">
@@ -92,32 +94,32 @@
 			</label>
 		</div>
 		<div class="cs_play_pause">
-			<label class="cs_play" for="cs_play1"><span><i></i><b></b></span></label>
-			<label class="cs_pause num0" for="cs_pause1_0"><span><i></i><b></b></span></label>
-			<label class="cs_pause num1" for="cs_pause1_1"><span><i></i><b></b></span></label>
-			<label class="cs_pause num2" for="cs_pause1_2"><span><i></i><b></b></span></label>
-			<label class="cs_pause num3" for="cs_pause1_3"><span><i></i><b></b></span></label>
+			<label class="cs_play" for="cs_play1" title="Reproducir presentación"><span><i></i><b></b></span></label>
+			<label class="cs_pause num0" for="cs_pause1_0" title="Pausar presentación"><span><i></i><b></b></span></label>
+			<label class="cs_pause num1" for="cs_pause1_1" title="Pausar presentación"><span><i></i><b></b></span></label>
+			<label class="cs_pause num2" for="cs_pause1_2" title="Pausar presentación"><span><i></i><b></b></span></label>
+			<label class="cs_pause num3" for="cs_pause1_3" title="Pausar presentación"><span><i></i><b></b></span></label>
 			</div>
 		<div class="cs_arrowprev">
-			<label class="num0" for="cs_slide1_0"><span><i></i><b></b></span></label>
-			<label class="num1" for="cs_slide1_1"><span><i></i><b></b></span></label>
-			<label class="num2" for="cs_slide1_2"><span><i></i><b></b></span></label>
-			<label class="num3" for="cs_slide1_3"><span><i></i><b></b></span></label>
+			<label class="num0" for="cs_slide1_0" title="Servicio anterior"><span><i></i><b></b></span></label>
+			<label class="num1" for="cs_slide1_1" title="Servicio anterior"><span><i></i><b></b></span></label>
+			<label class="num2" for="cs_slide1_2" title="Servicio anterior"><span><i></i><b></b></span></label>
+			<label class="num3" for="cs_slide1_3" title="Servicio anterior"><span><i></i><b></b></span></label>
 		</div>
 		<div class="cs_arrownext">
-			<label class="num0" for="cs_slide1_0"><span><i></i><b></b></span></label>
-			<label class="num1" for="cs_slide1_1"><span><i></i><b></b></span></label>
-			<label class="num2" for="cs_slide1_2"><span><i></i><b></b></span></label>
-			<label class="num3" for="cs_slide1_3"><span><i></i><b></b></span></label>
+			<label class="num0" for="cs_slide1_0" title="Servicio siguiente"><span><i></i><b></b></span></label>
+			<label class="num1" for="cs_slide1_1" title="Servicio siguiente"><span><i></i><b></b></span></label>
+			<label class="num2" for="cs_slide1_2" title="Servicio siguiente"><span><i></i><b></b></span></label>
+			<label class="num3" for="cs_slide1_3" title="Servicio siguiente"><span><i></i><b></b></span></label>
 		</div>
 		<div class="cs_bullets">
-			<label class="num0" for="cs_slide1_0"> <span class="cs_point"></span>
+			<label class="num0" for="cs_slide1_0" title="Ir a Desarrollo Web"> <span class="cs_point"></span>
 				</label>
-			<label class="num1" for="cs_slide1_1"> <span class="cs_point"></span>
+			<label class="num1" for="cs_slide1_1" title="Ir a Diseño Editorial"> <span class="cs_point"></span>
 				</label>
-			<label class="num2" for="cs_slide1_2"> <span class="cs_point"></span>
+			<label class="num2" for="cs_slide1_2" title="Ir a Edición de Video"> <span class="cs_point"></span>
 				</label>
-			<label class="num3" for="cs_slide1_3"> <span class="cs_point"></span>
+			<label class="num3" for="cs_slide1_3" title="Ir a Vectorización de Imagenes"> <span class="cs_point"></span>
 				</label>
 		</div>
 		</div>
@@ -198,7 +200,7 @@
 				<article class="grid">
 					<img src="img/proyecto-moctezuma-tour-europa.jpg" width="600" height="800" alt="Captura de pantalla de programa de edición de vectores con trabajo de vectorización abierto">
 					<h3>Maria Moctezuma, Tour Europa 2020</h3>
-					<p>Vectorización de fotografía para impresión en serigrafía. Ilustración con versiónes para fondo claro y fondo oscuro.</p>
+					<p>Vectorización de fotografía para impresión en serigrafía. Ilustración con versiones para fondo claro y fondo oscuro.</p>
 				</article>
 				<article class="grid">
 					<img src="img/proyecto-ocampo-folleto.jpg" width="600" height="800" alt="Folleto digital de Ocampo Inmobiliaria">
@@ -210,7 +212,7 @@
 		<section id="Testimonios">
 			<h2>Testimonios</h2>
 			<div class="flex">
-				<article class="grid" id="Agata">
+				<article class="grid" id="Agata" lang="en-US">
 					<h3 class="oculto">Agata Komornicka, Away With Agata K</h3>
 					<img src="img/testimonial-agakom.jpeg" alt="" width="500" height="500">
 			  		<blockquote>
@@ -230,7 +232,7 @@
 					<h3 class="oculto">Deborah Shadovitz, Los Ángeles Área Life.</h3>
 					<img src="img/testimonial-debshad.jpeg" alt="" width="462" height="462">
 			  		<blockquote>
-						<p>I designed and created my own website, but needed it to be in WordPress. Daniel translated the design to WordPress and moved all of my content over for me. I now turn to him for all WordPress expertise. I recommend him here for sll things WordPress, just as I do in person to people I know personally.</p>
+						<p>I designed and created my own website, but needed it to be in WordPress. Daniel translated the design to WordPress and moved all of my content over for me. I now turn to him for all WordPress expertise. I recommend him here for all things WordPress, just as I do in person to people I know personally.</p>
 						<cite>Deborah Shadovitz, <span>Los Ángeles Área Life.</span></cite>
 					</blockquote>
 				</article>
@@ -300,11 +302,11 @@
 		</section>
 	</main>
 	<footer>
-		©2026 DEstrella.mx<br/>
-		Los nombres registrados, marcas y logos que aquí se presentan, son propiedades de sus respectivos propietarios.<br/>
-		“Serif” y “Affinity” son marcas comerciales registradas de Serif Europe Ltd.<br/>
-		iWork y MacBook Pro son marcas comerciales de Apple Inc. registradas en Estados Unidos y en otros países.
+		<p>©2026 DEstrella.mx</p>
+		<p>Los nombres registrados, marcas y logos que aquí se presentan, son propiedades de sus respectivos propietarios.</p>
+		<p>“Serif” y “Affinity” son marcas comerciales registradas de Serif Europe Ltd.</p>
+		<p>iWork y MacBook Pro son marcas comerciales de Apple Inc. registradas en Estados Unidos y en otros países.</p>
 	</footer>
-	<script type="text/javascript" src="js/gestures.js"></script>
+	<script src="js/gestures.js"></script>
 </body>
 </html>

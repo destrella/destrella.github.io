@@ -45,15 +45,11 @@
   font-size: 0px;
   line-height: 0;
 }
-.slider-servicios > ul > .slide.img img {
+.slider-servicios > ul > .cs_skeleton img {
   width: 100%;
 }
-
-
-
-.slider-servicios > ul > .slide.img a {
-  font-size: 0pt;
-  color: transparent;
+.slider-servicios > ul > .slide.img img {
+  width: 100%;
 }
 .slider-servicios > ul > .slide {
   position: relative;
@@ -73,15 +69,6 @@
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
-.slider-servicios .cs_engine{
-  position: absolute;
-  top: -9999px;
-  left: -9999px;
-  font-size: 0pt;
-  opacity: 0;
-  filter: alpha(opacity=0);
-}
-
 .slider-servicios > ul > li.img,
 .slider-servicios > .cs_arrowprev,
 .slider-servicios > .cs_arrownext,
@@ -201,10 +188,6 @@
   font-size: 0;
   line-height: 8pt;
   text-align: center;
-}
-.slider-servicios > .cs_bullets > div {
-  margin-left: -50%;
-  width: 100%;
 }
 .slider-servicios > .cs_bullets > label {
   position: relative;
@@ -513,13 +496,6 @@
   line-height: 23px;
   text-align: center;
 }
-/* IE10+ hack */
-_:-ms-input-placeholder, :root .slider-servicios > .cs_arrowprev > label span:after {
-  line-height: 29px;
-}
-_:-ms-input-placeholder, :root .slider-servicios > .cs_arrownext > label span:after {
-  line-height: 29px;
-}
 
 .slider-servicios > .cs_arrowprev > label span:after {
   content: '\e800';
@@ -612,7 +588,7 @@ _:-ms-input-placeholder, :root .slider-servicios > .cs_arrownext > label span:af
   width: 23px;
   margin-top: -28px;
   margin-left: -28px;
-  background-color: rgba(48, 48, 48, .69);;
+  background-color: rgba(48, 48, 48, .69);
   border-radius: 50%;
 }
 .slider-servicios > .cs_play_pause > label,
@@ -630,10 +606,6 @@ _:-ms-input-placeholder, :root .slider-servicios > .cs_arrownext > label span:af
   line-height: 25px;
   text-align: center;
 }
-/* IE10+ hack */
-_:-ms-input-placeholder, :root .slider-servicios > .cs_play_pause > label span:after {
-  line-height: 28px;
-}
 .slider-servicios > .cs_play_pause > .cs_play span:after {
   content: '\e802';
 }
@@ -646,7 +618,7 @@ _:-ms-input-placeholder, :root .slider-servicios > .cs_play_pause > label span:a
 }
 .slider-servicios > .cs_play_pause:hover > label span {
   color: #FFF;
-  -wibkit-animation: playPause1 .7s infinite ease-in-out;
+  -webkit-animation: playPause1 .7s infinite ease-in-out;
   animation: playPause1 .7s infinite ease-in-out;
 }
 
@@ -1140,14 +1112,7 @@ _:-ms-input-placeholder, :root .slider-servicios > .cs_play_pause > label span:a
 
 /* ------------- /Template Description ------------- */
 /* hide description & bullets on mobile devices */
-@media
-only screen and (max-width: 480px),
-only screen and (-webkit-max-device-pixel-ratio: 2)      and (max-width: 480px),
-only screen and (   max--moz-device-pixel-ratio: 2)      and (max-width: 480px),
-only screen and (     -o-max-device-pixel-ratio: 2/1)    and (max-width: 480px),
-only screen and (        max-device-pixel-ratio: 2)      and (max-width: 480px),
-only screen and (                max-resolution: 192dpi) and (max-width: 480px),
-only screen and (                max-resolution: 2dppx)  and (max-width: 480px) {
+@media (max-width: 480px) {
   .slider-servicios > .cs_description,
   .slider-servicios > .cs_bullets {
     display: none;
