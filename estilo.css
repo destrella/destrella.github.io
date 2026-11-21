@@ -488,8 +488,7 @@ body div.LI-profile-badge div div.LI-badge-container-horizontal-dark.LI-badge-co
 #Intro p.intro strong{
 	color:#FFB742;
 }
-#Experiencia .grid,
-#Herramientas-QA .grid{
+#Experiencia .grid{
 	width:calc(30em + 300px);
 	max-width:100%;
 	min-height:max-content;
@@ -497,20 +496,16 @@ body div.LI-profile-badge div div.LI-badge-container-horizontal-dark.LI-badge-co
 	text-align:left;
 	color:#ccc;
 }
-#Experiencia .grid h3,
-#Herramientas-QA .grid h3{
+#Experiencia .grid h3{
 	text-align:left;
 	margin-left:0;
 	margin-right:0;
 	max-width:none;
 }
 #Experiencia .grid ul,
-#Herramientas-QA .grid p{
+#Experiencia .grid p{
 	color:#ccc;
 	max-width:none;
-}
-#Herramientas-QA .grid a{
-	color:#FFB742;
 }
 #Proyectos .grid a{
 	color:#FFB742;
